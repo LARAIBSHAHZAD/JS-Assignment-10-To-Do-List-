@@ -63,8 +63,13 @@
 
 body{
     background-image: url("./pexels-ekaterina-bolovtsova-6192123.jpg");
-    /* background-position: center; */
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    height: 48vmax;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 48vmax; */
+    background-attachment: fixed;
+}
+
+.inp{
+    font-size: 20px;
 }
